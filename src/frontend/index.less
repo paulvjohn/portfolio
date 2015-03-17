@@ -1,0 +1,76 @@
+@import '../../bower_components/bootstrap/less/bootstrap';
+@import '../../bower_components/fontawesome/less/font-awesome';
+@import 'styles/connection-status';
+@import 'styles/access-control';
+
+// Bootstrap/font-awesome overrides
+/*@brand-primary: lighten(#999900, 5%);*/
+@brand-success: #8cc90a;
+@border-radius-base: 2px;
+@border-radius-large: 2px;
+@border-radius-small: 1px;
+@btn-primary-border: @btn-primary-bg;
+@btn-success-border: @btn-success-bg;
+@fa-font-path: '';
+
+kbd,
+a kbd,
+a:hover kbd {
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  color: #333;
+  font-family: monospace;
+  padding: 2px 3px;
+  text-decoration: none;
+}
+
+h4 .btn {
+  margin-left: 5px;
+}
+
+.modal-backdrop {
+  height: 100%;
+}
+
+.navbar-default {
+  background: none;
+  border: 0 none;
+  margin-top: 15px;
+
+  .navbar-brand {
+    padding-top: 5px;
+  }
+}
+
+.page-footer {
+  color: @gray-light;
+  margin-top: 60px;
+  text-align: center;
+}
+
+.center-on-page {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 25%;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.griddle {
+  .panel {
+    border: 0 none;
+    box-shadow: 0;
+  }
+
+  .table {
+    margin-bottom: 0;
+  }
+
+  .grid-footer {
+    padding: 10px 0;
+  }
+}

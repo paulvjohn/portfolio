@@ -1,0 +1,6 @@
+.DS_Store
+.idea
+*.log
+.env
+/dist
+npm-debug*

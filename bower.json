@@ -1,0 +1,16 @@
+{
+  "name": "Viper Wine",
+  "version": "0.0.0",
+  "homepage": "https://github.com/urbaitelenterprises/viper-wine",
+  "authors": [
+    "BIG <http://builtbybig.com>"
+  ],
+  "description": "Vendini Viper Wine new logistics manager.",
+  "main": "index.html",
+  "license": "Copyright BIG <http://builtbybig.com>",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "~3.3.2",
+    "fontawesome": "~4.3.0"
+  }
+}
