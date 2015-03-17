@@ -17,7 +17,7 @@ var Clients = React.createClass({
         <Jumbotron>
           <h1>Clients</h1>
           <p>Urbaitel Enterprises' team has over 20 years of experience building online solutions.  Our portfolio includes clients & projects worked on by our team of specialists.</p>
-          
+
           <Link
             to='clients'
             className="btn btn-primary"

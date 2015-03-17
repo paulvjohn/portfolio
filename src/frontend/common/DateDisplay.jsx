@@ -12,7 +12,7 @@ var DateDisplay = React.createClass({
 
     if (Validator.isDate(this.props.date)) {
       date = new Date(this.props.date);
-      timestamp = moment(date).format('MMMM Do YYYY, h:mm a');
+      timestamp = moment(date).format('MMMM Do YYYY, h:mm:ss a');
     } else {
       timestamp = '';
     }
