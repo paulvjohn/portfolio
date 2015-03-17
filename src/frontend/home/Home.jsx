@@ -15,8 +15,11 @@ var Home = React.createClass({
   ],
 
   componentWillUpdate() {
-    if (this.state.homeData.updated === true) {
+    if (this.state.homeData.updatedTime === true) {
       HomeActions.getTime();
+    }
+    if (this.state.homeData.updatedThought === true) {
+      HomeActions.getThought();
     }
   },
 
@@ -33,7 +36,6 @@ var Home = React.createClass({
         <Jumbotron>
           <h1>Portfolio</h1>
           <p>Urbaitel Enterprises' team has over 20 years of experience building online solutions.  Our portfolio includes clients & projects worked on by our team of specialists.</p>
-
 
           <p>The current time is <b>{currentTime}</b>.  </p>
           <p>It changes every second using ReactJS, Reflux, MomentJS & Magic.  Just one simple example of the beauty of React. </p>
@@ -59,6 +61,14 @@ var Home = React.createClass({
           >
             Github
           </Link>
+        </Jumbotron>
+        <Jumbotron>
+          <h1>We Are...</h1>
+          <p>{this.state.homeData.thought}</p>
+          <center>
+          <img src='ue-detailed-logo.jpg' width='300' />
+          <br />
+          </center>
         </Jumbotron>
       </div>
     );

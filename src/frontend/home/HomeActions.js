@@ -1,7 +1,8 @@
 var Reflux = require('reflux');
 
 var HomeActions = Reflux.createActions([
-  'getTime'
+  'getTime',
+  'getThought'
 ]);
 
 module.exports = HomeActions;
