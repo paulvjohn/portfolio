@@ -38,6 +38,7 @@ io.on('connection', function (socket) {
   });
 
   // Load application routers.
+  require('./home/router')(io, socket);
   require('./portfolio/router')(io, socket);
 
 });

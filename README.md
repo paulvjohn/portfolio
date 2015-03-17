@@ -1,4 +1,4 @@
-# Starter Node App w/ Reflux, React & Websockets 
+# Portfolio Node App w/ Reflux, React & Websockets 
 
 Welcome to Urbaitel Enterprises' Starter Reflux, React, Node, Websockets App.  Designed by our team in the North Bay of California, it comprises of our collective experiences building web applications -- the best of the best.
 

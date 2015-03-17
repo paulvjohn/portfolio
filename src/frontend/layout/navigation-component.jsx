@@ -16,7 +16,6 @@ var Navigation = React.createClass({
         <Link to="app">
           <img src="ue-logo.jpg" height='40' />
         </Link>
-      {' '} A Premier Web Consulting Company
       </div>
     );
 
